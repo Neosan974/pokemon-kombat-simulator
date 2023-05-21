@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: '/pokedex',
       name: 'pokedex',
-      component: () => import('../views/SimulatorView.vue')
+      component: () => import('../views/PokedexView.vue')
     },
     {
       path: '/simulator',
